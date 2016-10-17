@@ -1,0 +1,26 @@
+{
+  "name": "loopback-component-storage-simple-gridfs",
+  "version": "0.1.0",
+  "description": "implement grids fs datasource for loopback, with ability to choose the collection name",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hkashlan/loopback-component-storage-simple-gridfs.git"
+  },
+  "keywords": [
+    "loopback",
+    "mongodb",
+    "gridfs"
+  ],
+  "author": "hkashlan@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hkashlan/loopback-component-storage-simple-gridfs/issues"
+  },
+  "homepage": "https://github.com/hkashlan/loopback-component-storage-simple-gridfs#readme"
+}
