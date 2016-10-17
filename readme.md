@@ -1,8 +1,12 @@
-# loopback-component-storage-gridfs
+# loopback-component-storage-simple-gridfs
+Please note it is still beta
+
+# loopback-component-storage-simple-gridfs
 
 Uses mongoDB [GridFS](https://docs.mongodb.org/manual/core/gridfs/) to manage binary contents of your loopback application.
 
 ### Inspired by
+* https://github.com/MrMartiniMo/loopback-component-storage-gridfs 
 * https://github.com/strongloop/loopback-component-storage
 * https://github.com/jdrouet/loopback-component-storage-mongo
 
@@ -13,7 +17,7 @@ Uses mongoDB [GridFS](https://docs.mongodb.org/manual/core/gridfs/) to manage bi
 ## Installation
 
 ```bash
-npm install --save loopback-component-storage-gridfs
+npm install --save loopback-component-storage-simple-gridfs
 ```
 
 ## Datasource
@@ -23,7 +27,7 @@ Add datasource to your datasources.json
 ```json
 "storage": {
    "name": "gridfs",
-   "connector": "loopback-component-storage-gridfs",
+   "connector": "loopback-component-storage-simple-gridfs",
    "host": "hostname",
    "port": 27017,
    "database": "database",
